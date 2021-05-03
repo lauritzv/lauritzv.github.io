@@ -159,7 +159,7 @@
     {
       "panelConstruction": [
         {
-          "videoUrl": "https://lauritzv.github.io/Resources/demo1-end-speech.m4v",
+          "videoFileName": "demo1-end-speech.m4v",
           "clickToClose": true,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
