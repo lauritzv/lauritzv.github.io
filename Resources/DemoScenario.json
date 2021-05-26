@@ -80,7 +80,7 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Be tilskuer om å berolige sjåføren som er i sjokk. <br>Få ham til å sette seg ned et egnet sted i god avstand fra bilen.",
+              "answerTextBM": "Be tilskuer om å berolige sjåføren som er i sjokk. \nFå ham til å sette seg ned et egnet sted i god avstand fra bilen.",
               "answerTextNN": null,
               "feedbackTextBM": "",
               "feedbackTextNN": "",
@@ -1180,8 +1180,8 @@
           "actionType": 8
         },
         {
-          "messageBM": "Du hører lyder fra en gangtunnel like ved.<br>Dette bør utforskes!",
-          "messageNN": "NN Du hører lyder fra en gangtunnel like ved.<br>Dette bør utforskes!",
+          "messageBM": "Du hører lyder fra en gangtunnel like ved.\nDette bør utforskes!",
+          "messageNN": "NN Du hører lyder fra en gangtunnel like ved.\nDette bør utforskes!",
           "duration": 0.0,
           "delay": 3.0,
           "reopenMostRecentPanel": false,
