@@ -1,0 +1,765 @@
+{
+  "panels": [
+    {
+      "panelConstruction": [
+        {
+          "imageId": 10,
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "actionsOnEnabled": [],
+          "id": "VictimOnGround",
+          "panelElementType": 1
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Fem innblåsninger over munn og nese.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. Du har ikke stor nok munn til å dekke nesa også. Fem innblåsninger er for barn og ved drukning.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med to hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med to innblåsninger hvor jeg kniper sammen personens nese.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hva gjør du etter de to innblåsningene?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "S4-P3-D",
+                    "S4-P3-E",
+                    "S4-P3-F"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S4-P3-A",
+                    "S4-P3-B"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S4-P3-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Plasserer hendene over venstre brystvorte og begynner forsiktig med 30 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Er dette riktig plassering?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-D",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Plasserer hendene midt mellom brystvortene og tar 100 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Er det riktig antall hjertekompresjoner?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-E",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Plasserer hendene midt mellom brystvortene og tar 30 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvordan utfører du hjertekompresjonene?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "S4-P3-G",
+                    "S4-P3-H",
+                    "S4-P3-I"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S4-P3-D",
+                    "S4-P3-E"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S4-P3-F",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bruker en hånd mens jeg støtter hodet med den andre. Jeg trykker 2-3 cm ned i en takt på 60 pr minutt.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil teknikk. Prøv igjen.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-G",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bruker håndroten, har strake armer og lener meg over personen. Jeg trykker 5-6 cm ned i en takt på 100 pr minutt.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Når du er i gang med HLR, hvor lenge skal du holde på?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "S4-P3-J",
+                    "S4-P3-K",
+                    "S4-P3-L"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S4-P3-G",
+                    "S4-P3-I"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S4-P3-H",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bruker håndroten, sitter på kne inntil personen, trykker 2-3 cm ned i en takt på 60 pr minutt.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. Her er du litt for treig og litt for forsiktig.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-I",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": " I maks ti minutter. Da er det ikke lenger håp for personen dessverre.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. Sjansen for å redde personen blir mindre, men du bør holde på lenger.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-J",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Til jeg ikke orker mer. Det er fryktelig slitsomt!",
+              "answerTextNN": null,
+              "feedbackTextBM": "Det er slitsomt. Om du ikke orker mer, er det viktig at du roper om hjelp. Dere kan dele på å utføre HLR.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S4-P3-K",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Til personen begynner å puste eller til profesjonell helsehjelp kommer.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S4-F4"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S4-F3"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S4-P3-L",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S4-P3-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "En voksen person ligger på bakken. Hun puster ikke. Du må begynne med HLR, men hva begynner du med?",
+      "headerTextNN": null,
+      "id": "S4-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [],
+      "attachedAssets": [
+        {
+          "assetID": 9,
+          "targetId": null
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "CPR-MiniGame",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 5,
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "actionsOnEnabled": [],
+          "id": "DashboardImage",
+          "panelElementType": 1
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Du lar motoren gå. Den må kanskje flyttes raskt",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P1-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Ja",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S3-F1-Ignition"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P1-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei, lyset fra bilen kan komme godt med.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P1-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P1-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Bør du slå av motoren på bilen?",
+      "headerTextNN": null,
+      "id": "S3-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg bør ta på meg refleksvest.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvorfor bør du ha på deg refleksvest?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "S3-P2-D",
+                    "S3-P2-E",
+                    "S3-P2-F"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S3-P2-B",
+                    "S3-P2-C"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P2-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bør sørge for å holde bildørene lukket og låst.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P2-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bør finne og ta på meg hodelykt. Det er viktig å være godt synlig.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P2-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Det gir autoritet på ulykkesstedet.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P2-D",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Det er viktig å være godt synlig så det ikke oppstår en ny farlig situasjon.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Du fant refleksvesten i døren. Refleksvesten må ligge på en armlengdes avstand fra føreren, men hvor kan du ellers finne den?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "S3-P2-G",
+                    "S3-P2-H",
+                    "S3-P2-I"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S3-P2-D",
+                    "S3-P2-F"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P2-E",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Det signaliserer at du har tar kontroll over ulykkesstedet.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P2-F",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Den er anbefalt å ha festet rundt bilsetet til føreren.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. Hvis refleksvesten er festet rundt setet, kan den hindre at sideairbagen blir løst ut.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P2-G",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Den skal egentlig alltid være på samme plass i alle biler: i hanskerommet.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. Den kan også ligge i midtkonsollen eller i dørlommen for eksempel.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P2-H",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "For eksempel i midtkonsollen eller i hanskerommet.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S3-F2-VisibilityVest"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P2-I",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P2-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Hva kan du gjøre for å sikre deg selv?",
+      "headerTextNN": null,
+      "id": "S3-P2",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 5,
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "actionsOnEnabled": [],
+          "id": "DashboardImage",
+          "panelElementType": 1
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Nei.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P3-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Ja.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S3-F3-EmergencyLights"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P3-A",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P3-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Bør du slå på nødblinken på bilen?",
+      "headerTextNN": null,
+      "id": "S3-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 5,
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "actionsOnEnabled": [],
+          "id": "DashboardImage",
+          "panelElementType": 1
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja",
+              "answerTextNN": null,
+              "feedbackTextBM": "Baggasjerommet er nå åpent.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S1-HotspotToBehindCar"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S3-F4-OpenTrunk"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P4-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei",
+              "answerTextNN": null,
+              "feedbackTextBM": "Har du ikke glemt noe nå?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P4-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P4-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Ønsker du å åpne baggasjerommet?",
+      "headerTextNN": null,
+      "id": "S3-P4",
+      "panelElementType": 0
+    }
+  ],
+  "criteriaActions": [
+    {
+      "sActions": [
+        {
+          "other": [
+            "S1-HotspotToCarInterior"
+          ],
+          "hidden": true,
+          "actionType": 1
+        }
+      ],
+      "criteriaIds": [
+        "S3-P1-B",
+        "S3-P2-I",
+        "S3-P3-A",
+        "S3-P4-A"
+      ]
+    }
+  ]
+}
