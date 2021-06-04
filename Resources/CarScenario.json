@@ -322,7 +322,7 @@
           "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
-          "id": "DashboardImage",
+          "id": "S3-P1-DashboardImage",
           "panelElementType": 1
         },
         {
@@ -330,7 +330,7 @@
             {
               "answerTextBM": "Du lar motoren gå. Den må kanskje flyttes raskt",
               "answerTextNN": null,
-              "feedbackTextBM": "",
+              "feedbackTextBM": "Feil. Slå alltid av bilen. Den kan flytte seg, eller noe kan antennes.",
               "feedbackTextNN": "",
               "isCorrectAnswer": false,
               "initiallyVisible": true,
@@ -344,7 +344,7 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Ja",
+              "answerTextBM": "Ja, vi kan ikke risikere at bilen flytter seg eller at noe antennes.",
               "answerTextNN": null,
               "feedbackTextBM": "Bra, riktig svar!",
               "feedbackTextNN": "",
@@ -368,9 +368,9 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Nei, lyset fra bilen kan komme godt med.",
+              "answerTextBM": "Nei, vi må ha på frontlysene og varmen i bilen.",
               "answerTextNN": null,
-              "feedbackTextBM": "",
+              "feedbackTextBM": "Feil. Slå alltid av bilen. Den kan flytte seg, eller noe kan antennes.",
               "feedbackTextNN": "",
               "isCorrectAnswer": false,
               "initiallyVisible": true,
@@ -441,7 +441,7 @@
             {
               "answerTextBM": "Jeg bør sørge for å holde bildørene lukket og låst.",
               "answerTextNN": null,
-              "feedbackTextBM": "",
+              "feedbackTextBM": "Feil, prøv igjen. Bildørene skal ikke låses.",
               "feedbackTextNN": "",
               "isCorrectAnswer": false,
               "initiallyVisible": true,
@@ -457,7 +457,7 @@
             {
               "answerTextBM": "Jeg bør finne og ta på meg hodelykt. Det er viktig å være godt synlig.",
               "answerTextNN": null,
-              "feedbackTextBM": "",
+              "feedbackTextBM": "Feil, prøv igjen. Det er ikke vanlig å ha hodelykt liggende \\, dessuten risikerer du å blende andre.",
               "feedbackTextNN": "",
               "isCorrectAnswer": false,
               "initiallyVisible": true,
@@ -616,15 +616,15 @@
           "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
-          "id": "DashboardImage",
+          "id": "S3-P3-DashboardImage",
           "panelElementType": 1
         },
         {
           "answers": [
             {
-              "answerTextBM": "Nei.",
+              "answerTextBM": "Nei, det kan virke forvirrende for andre biler.",
               "answerTextNN": null,
-              "feedbackTextBM": "",
+              "feedbackTextBM": "Feil. Det er viktig å signalisere for andre biler at det er en nødsituasjon her. Prøv igjen.",
               "feedbackTextNN": "",
               "isCorrectAnswer": false,
               "initiallyVisible": true,
@@ -638,7 +638,7 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Ja.",
+              "answerTextBM": "Ja, det er viktig å signalisere at det har skjedd noe her.",
               "answerTextNN": null,
               "feedbackTextBM": "Bra, riktig svar!",
               "feedbackTextNN": "",
@@ -658,7 +658,23 @@
                   "actionType": 1
                 }
               ],
-              "id": "S3-P3-A",
+              "id": "S3-P3-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei, for da må du jo ha motoren på bilen gående.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil, nødblinken står på uten at motoren trenger å gå. Prøv igjen.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P3-C",
               "panelElementType": 4
             }
           ],
@@ -674,14 +690,6 @@
     },
     {
       "panelConstruction": [
-        {
-          "imageId": 5,
-          "clickToClose": false,
-          "hiddenInitially": false,
-          "actionsOnEnabled": [],
-          "id": "DashboardImage",
-          "panelElementType": 1
-        },
         {
           "answers": [
             {
@@ -741,6 +749,354 @@
       "headerTextNN": null,
       "id": "S3-P4",
       "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 8,
+          "clickToClose": true,
+          "hiddenInitially": false,
+          "actionsOnEnabled": [
+            {
+              "other": [
+                "TrunkFloorHotspot"
+              ],
+              "hidden": true,
+              "actionType": 1
+            }
+          ],
+          "id": "CarTrunkImage",
+          "panelElementType": 1
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "I noen biler vil du finne varseltrekanten under gulvplaten. Det er ikke tilfellet i denne.",
+      "headerTextNN": null,
+      "id": "S3-P5",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Nei.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P6-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Ja.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! Returner til ulykken og finn et sted å sette den!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "TrunkFloorHotspot",
+                    "TriangleFoundHotspot",
+                    "S1-HotspotToBehindCar"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "CorrectTrianglePosition",
+                    "IncorrectTrianglePositionA",
+                    "IncorrectTrianglePositionB"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P6-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P6-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Du har funnet varseltrekanten. Ønsker du å ta den med deg?",
+      "headerTextNN": null,
+      "id": "S3-P6",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja, jeg setter den opp på biltaket for å gjøre den mest mulig synlig.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P7-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei, den har ingenting på taket å gjøre.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "IncorrectTrianglePositionA"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P7-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P7-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Setter du varseltrekanten på biltaket?",
+      "headerTextNN": null,
+      "id": "S3-P7",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P8-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei, det er ikke riktig sted.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "IncorrectTrianglePositionB"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P8-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P8-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Setter du varseltrekanten i veien, rett bak bilen?",
+      "headerTextNN": null,
+      "id": "S3-P8",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!\nHensikten med varseltrekanten er å gi kommende biler varsel om at de må bremse ned og være oppmerksomme på at det har skjedd noe lenger frem.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S3-P9-B",
+                    "IncorrectTrianglePositionA",
+                    "IncorrectTrianglePositionB"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S3-P9-C",
+                    "S3-P9-D",
+                    "S3-P9-E"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P9-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil!\nHensikten med varseltrekanten er å gi kommende biler varsel om at de må bremse ned og være oppmerksomme på at det har skjedd noe lenger frem.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S3-P9-A",
+                    "IncorrectTrianglePositionA",
+                    "IncorrectTrianglePositionB"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "S3-P9-C",
+                    "S3-P9-D",
+                    "S3-P9-E"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvor langt unna bilen bør du sette varseltrekanten?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                }
+              ],
+              "id": "S3-P9-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "5 meter.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. Dette er for nært!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P9-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "50 meter.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Kan gå der det er lav fartsgrense, men det er fortsatt litt kort avstand.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
+              "id": "S3-P9-D",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Minst 100 meter.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar. Det er for å gi kommende biler tid til å bremse ned.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "CorrectTrianglePosition"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "S3-P9-E",
+              "panelElementType": 4
+            }
+          ],
+          "id": "S3-P9-mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Setter du varseltrekanten opp i veien, i god avstand fra bilen?",
+      "headerTextNN": null,
+      "id": "S3-P9",
+      "panelElementType": 0
     }
   ],
   "criteriaActions": [
@@ -757,8 +1113,27 @@
       "criteriaIds": [
         "S3-P1-B",
         "S3-P2-I",
-        "S3-P3-A",
+        "S3-P3-B",
         "S3-P4-A"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "messageBM": "Området er sikret!",
+          "messageNN": "",
+          "duration": 2.0,
+          "delay": 2.0,
+          "reopenMostRecentPanel": false,
+          "panelIdToReopen": null,
+          "actionType": 10
+        }
+      ],
+      "criteriaIds": [
+        "S3-P1-B",
+        "S3-P2-I",
+        "S3-P3-B",
+        "S3-P9-E"
       ]
     }
   ]
