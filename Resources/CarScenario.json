@@ -310,7 +310,7 @@
           "targetId": null
         }
       ],
-      "headerTextBM": null,
+      "headerTextBM": "Hold jevn rytme og riktig hastighet!",
       "headerTextNN": null,
       "id": "CPR-MiniGame",
       "panelElementType": 0
@@ -754,7 +754,7 @@
       "panelConstruction": [
         {
           "imageId": 8,
-          "clickToClose": true,
+          "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [
             {
@@ -767,10 +767,16 @@
           ],
           "id": "CarTrunkImage",
           "panelElementType": 1
+        },
+        {
+          "descriptionBM": "I noen biler vil du, som avbildet, finne varseltrekanten under gulvplaten. Det er ikke tilfellet i denne. Du må lete videre!",
+          "descriptionNN": null,
+          "id": "S3-P5-Description",
+          "panelElementType": 5
         }
       ],
       "attachedAssets": [],
-      "headerTextBM": "I noen biler vil du finne varseltrekanten under gulvplaten. Det er ikke tilfellet i denne.",
+      "headerTextBM": null,
       "headerTextNN": null,
       "id": "S3-P5",
       "panelElementType": 0
@@ -779,22 +785,6 @@
       "panelConstruction": [
         {
           "answers": [
-            {
-              "answerTextBM": "Nei.",
-              "answerTextNN": null,
-              "feedbackTextBM": "",
-              "feedbackTextNN": "",
-              "isCorrectAnswer": false,
-              "initiallyVisible": true,
-              "initiallyDisabled": false,
-              "disableOnChosen": true,
-              "hideOnChosen": false,
-              "registerCriteriaOnChosen": false,
-              "reopenPanelAfterFeedback": true,
-              "actionsOnChosen": [],
-              "id": "S3-P6-A",
-              "panelElementType": 4
-            },
             {
               "answerTextBM": "Ja.",
               "answerTextNN": null,
@@ -827,6 +817,22 @@
                   "actionType": 1
                 }
               ],
+              "id": "S3-P6-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "actionsOnChosen": [],
               "id": "S3-P6-B",
               "panelElementType": 4
             }
@@ -946,7 +952,7 @@
         }
       ],
       "attachedAssets": [],
-      "headerTextBM": "Setter du varseltrekanten i veien, rett bak bilen?",
+      "headerTextBM": "Setter du varseltrekanten i veien, \nrett bak bilen?",
       "headerTextNN": null,
       "id": "S3-P8",
       "panelElementType": 0
