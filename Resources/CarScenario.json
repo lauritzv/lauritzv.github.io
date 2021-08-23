@@ -3,11 +3,34 @@
     {
       "panelConstruction": [
         {
+          "imageId": 0,
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "actionsOnEnabled": [],
+          "id": "AMK-Conversation-Image",
+          "panelElementType": 1
+        }
+      ],
+      "attachedAssets": [
+        {
+          "assetID": 12,
+          "targetId": null,
+          "addedWidth": 340.0
+        }
+      ],
+      "headerTextBM": "Spill av samtale med Akuttmedisinsk kommunikasjonssentral (AMK).",
+      "headerTextNN": null,
+      "id": "AMK-Conversation",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
           "imageId": 10,
           "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
-          "id": "Sc1St1_P1_Image",
+          "id": "St1_P1_Image",
           "panelElementType": 1
         },
         {
@@ -24,8 +47,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P1_Mc_A",
+              "id": "St1_P1_Mc_A",
               "panelElementType": 4
             },
             {
@@ -40,6 +64,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "panelId": null,
@@ -49,22 +74,22 @@
                 },
                 {
                   "other": [
-                    "Sc1St1_P1_Mc_A",
-                    "Sc1St1_P1_Mc_C"
+                    "St1_P1_Mc_A",
+                    "St1_P1_Mc_C"
                   ],
                   "hidden": true,
                   "actionType": 1
                 },
                 {
                   "other": [
-                    "Sc1St1_P1_Mc_D",
-                    "Sc1St1_P1_Mc_E"
+                    "St1_P1_Mc_D",
+                    "St1_P1_Mc_E"
                   ],
                   "hidden": false,
                   "actionType": 1
                 }
               ],
-              "id": "Sc1St1_P1_Mc_B",
+              "id": "St1_P1_Mc_B",
               "panelElementType": 4
             },
             {
@@ -79,8 +104,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P1_Mc_C",
+              "id": "St1_P1_Mc_C",
               "panelElementType": 4
             },
             {
@@ -95,24 +121,25 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_F1"
+                    "St1_F1"
                   ],
                   "hidden": true,
                   "actionType": 1
                 },
                 {
                   "other": [
-                    "Sc1St1_F2",
-                    "Sc1St1_F3"
+                    "St1_F2",
+                    "St1_F3"
                   ],
                   "hidden": false,
                   "actionType": 1
                 }
               ],
-              "id": "Sc1St1_P1_Mc_D",
+              "id": "St1_P1_Mc_D",
               "panelElementType": 4
             },
             {
@@ -127,35 +154,36 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_F1"
+                    "St1_F1"
                   ],
                   "hidden": true,
                   "actionType": 1
                 },
                 {
                   "other": [
-                    "Sc1St1_F2",
-                    "Sc1St1_F3"
+                    "St1_F2",
+                    "St1_F3"
                   ],
                   "hidden": false,
                   "actionType": 1
                 }
               ],
-              "id": "Sc1St1_P1_Mc_E",
+              "id": "St1_P1_Mc_E",
               "panelElementType": 4
             }
           ],
-          "id": "Sc1St1_P1_Mc",
+          "id": "St1_P1_Mc",
           "panelElementType": 3
         }
       ],
       "attachedAssets": [],
       "headerTextBM": "En ung kvinne ligger på ryggen i veibanen. Hun virker livløs, men puster. Hva gjør du nå?",
       "headerTextNN": null,
-      "id": "Sc1St1_P1",
+      "id": "St1_P1",
       "panelElementType": 0
     },
     {
@@ -165,7 +193,7 @@
           "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
-          "id": "Sc1St1_P2_Image",
+          "id": "St1_P2_Image",
           "panelElementType": 1
         },
         {
@@ -182,8 +210,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P2_Mc_A",
+              "id": "St1_P2_Mc_A",
               "panelElementType": 4
             },
             {
@@ -198,8 +227,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P2_Mc_B",
+              "id": "St1_P2_Mc_B",
               "panelElementType": 4
             },
             {
@@ -214,27 +244,28 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_F2"
+                    "St1_F2"
                   ],
                   "hidden": true,
                   "actionType": 1
                 }
               ],
-              "id": "Sc1St1_P2_Mc_C",
+              "id": "St1_P2_Mc_C",
               "panelElementType": 4
             }
           ],
-          "id": "Sc1St1_P2_Mc",
+          "id": "St1_P2_Mc",
           "panelElementType": 3
         }
       ],
       "attachedAssets": [],
       "headerTextBM": "Sjåføren er i sjokk. Hva gjør du?",
       "headerTextNN": null,
-      "id": "Sc1St1_P2",
+      "id": "St1_P2",
       "panelElementType": 0
     },
     {
@@ -244,7 +275,7 @@
           "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
-          "id": "Sc1St1_P3_Image",
+          "id": "St1_P3_Image",
           "panelElementType": 1
         },
         {
@@ -261,20 +292,21 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_P3_Mc_B",
-                    "Sc1St1_P3_Mc_C"
+                    "St1_P3_Mc_B",
+                    "St1_P3_Mc_C"
                   ],
                   "hidden": true,
                   "actionType": 1
                 },
                 {
                   "other": [
-                    "Sc1St1_P3_Mc_D",
-                    "Sc1St1_P3_Mc_E",
-                    "Sc1St1_P3_Mc_F"
+                    "St1_P3_Mc_D",
+                    "St1_P3_Mc_E",
+                    "St1_P3_Mc_F"
                   ],
                   "hidden": false,
                   "actionType": 1
@@ -286,7 +318,7 @@
                   "actionType": 14
                 }
               ],
-              "id": "Sc1St1_P3_Mc_A",
+              "id": "St1_P3_Mc_A",
               "panelElementType": 4
             },
             {
@@ -301,8 +333,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P3_Mc_B",
+              "id": "St1_P3_Mc_B",
               "panelElementType": 4
             },
             {
@@ -317,8 +350,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P3_Mc_C",
+              "id": "St1_P3_Mc_C",
               "panelElementType": 4
             },
             {
@@ -333,8 +367,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P3_Mc_D",
+              "id": "St1_P3_Mc_D",
               "panelElementType": 4
             },
             {
@@ -349,10 +384,11 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_F3"
+                    "St1_F3"
                   ],
                   "hidden": true,
                   "actionType": 1
@@ -361,7 +397,7 @@
                   "actionType": 2
                 }
               ],
-              "id": "Sc1St1_P3_Mc_E",
+              "id": "St1_P3_Mc_E",
               "panelElementType": 4
             },
             {
@@ -376,19 +412,20 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P3_Mc_F",
+              "id": "St1_P3_Mc_F",
               "panelElementType": 4
             }
           ],
-          "id": "Sc1St1_P3_Mc",
+          "id": "St1_P3_Mc",
           "panelElementType": 3
         }
       ],
       "attachedAssets": [],
       "headerTextBM": "Han tar bilder av skadestedet. Hva gjør du?",
       "headerTextNN": null,
-      "id": "Sc1St1_P3",
+      "id": "St1_P3",
       "panelElementType": 0
     },
     {
@@ -407,8 +444,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P4_A",
+              "id": "St1_P4_A",
               "panelElementType": 4
             },
             {
@@ -423,8 +461,9 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P4_B",
+              "id": "St1_P4_B",
               "panelElementType": 4
             },
             {
@@ -439,10 +478,11 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_F4",
+                    "St1_F4",
                     "PhoneKeypadQuad"
                   ],
                   "hidden": true,
@@ -450,7 +490,7 @@
                 },
                 {
                   "other": [
-                    "Sc1St1_F6"
+                    "St1_F6"
                   ],
                   "hidden": false,
                   "actionType": 1
@@ -460,7 +500,7 @@
                   "actionType": 3
                 }
               ],
-              "id": "Sc1St1_P4_C",
+              "id": "St1_P4_C",
               "panelElementType": 4
             },
             {
@@ -475,19 +515,20 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P4_D",
+              "id": "St1_P4_D",
               "panelElementType": 4
             }
           ],
-          "id": "Sc1St1_P4_Mc",
+          "id": "St1_P4_Mc",
           "panelElementType": 3
         }
       ],
       "attachedAssets": [],
       "headerTextBM": "Du må ringe korrekt nødetat.",
       "headerTextNN": null,
-      "id": "Sc1St1_P4",
+      "id": "St1_P4",
       "panelElementType": 0
     },
     {
@@ -497,7 +538,7 @@
           "clickToClose": false,
           "hiddenInitially": false,
           "actionsOnEnabled": [],
-          "id": "Sc1St1_P5_Image",
+          "id": "St1_P5_Image",
           "panelElementType": 1
         },
         {
@@ -514,17 +555,18 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
-                    "Sc1St1_Hotspot_to_Stage2"
+                    "St1_Hotspot_to_Stage2"
                   ],
                   "hidden": false,
                   "actionType": 1
                 },
                 {
                   "other": [
-                    "Sc1St1_F5"
+                    "St1_F5"
                   ],
                   "hidden": true,
                   "actionType": 1
@@ -549,7 +591,7 @@
                   "actionType": 2
                 }
               ],
-              "id": "Sc1St1_P5_A",
+              "id": "St1_P5_A",
               "panelElementType": 4
             },
             {
@@ -564,19 +606,20 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
-              "id": "Sc1St1_P5_B",
+              "id": "St1_P5_B",
               "panelElementType": 4
             }
           ],
-          "id": "Sc1St1_P5_Mc",
+          "id": "St1_P5_Mc",
           "panelElementType": 3
         }
       ],
       "attachedAssets": [],
       "headerTextBM": "Sjåføren er fremdeles i sjokk.",
       "headerTextNN": null,
-      "id": "Sc1St1_P5",
+      "id": "St1_P5",
       "panelElementType": 0
     },
     {
@@ -603,6 +646,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P1-A",
               "panelElementType": 4
@@ -619,6 +663,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -643,6 +688,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P1-C",
               "panelElementType": 4
@@ -674,6 +720,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "panelId": null,
@@ -714,6 +761,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P2-B",
               "panelElementType": 4
@@ -730,6 +778,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P2-C",
               "panelElementType": 4
@@ -746,6 +795,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P2-D",
               "panelElementType": 4
@@ -762,6 +812,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "panelId": null,
@@ -802,6 +853,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P2-F",
               "panelElementType": 4
@@ -818,6 +870,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P2-G",
               "panelElementType": 4
@@ -834,6 +887,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P2-H",
               "panelElementType": 4
@@ -850,6 +904,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -897,6 +952,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P3-A",
               "panelElementType": 4
@@ -913,6 +969,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -937,6 +994,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P3-C",
               "panelElementType": 4
@@ -968,6 +1026,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -999,6 +1058,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P4-B",
               "panelElementType": 4
@@ -1061,6 +1121,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1096,6 +1157,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P6-B",
               "panelElementType": 4
@@ -1127,6 +1189,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P7-A",
               "panelElementType": 4
@@ -1143,6 +1206,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1182,6 +1246,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P8-A",
               "panelElementType": 4
@@ -1198,6 +1263,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1237,6 +1303,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1272,6 +1339,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1313,6 +1381,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P9-C",
               "panelElementType": 4
@@ -1329,6 +1398,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "S3-P9-D",
               "panelElementType": 4
@@ -1345,6 +1415,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1392,6 +1463,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1432,6 +1504,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-B",
               "panelElementType": 4
@@ -1448,6 +1521,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-C",
               "panelElementType": 4
@@ -1464,6 +1538,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-D",
               "panelElementType": 4
@@ -1480,6 +1555,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1520,6 +1596,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-F",
               "panelElementType": 4
@@ -1536,6 +1613,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-G",
               "panelElementType": 4
@@ -1552,6 +1630,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-H",
               "panelElementType": 4
@@ -1568,6 +1647,7 @@
               "hideOnChosen": true,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1608,6 +1688,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": true,
               "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [
                 {
                   "other": [
@@ -1640,6 +1721,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-K",
               "panelElementType": 4
@@ -1656,6 +1738,7 @@
               "hideOnChosen": false,
               "registerCriteriaOnChosen": false,
               "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
               "actionsOnChosen": [],
               "id": "St3-P1-L",
               "panelElementType": 4
@@ -1752,10 +1835,109 @@
           "panelElementType": 1
         },
         {
-          "descriptionBM": "Nåværende innhold er utført. Neste steg her blir å få hjelp til å legge offeret i stabilt sideleie.",
-          "descriptionNN": null,
-          "id": "St3-tempdescription",
-          "panelElementType": 5
+          "answers": [
+            {
+              "answerTextBM": "Få hjelp til å legge offeret i stabilt sideleie.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "stageToEnable": "env1_kneeling_st4",
+                  "stagesToDisable": [
+                    "env1_kneeling_st3"
+                  ],
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "stageToEnable": "env1_standing_st4",
+                  "stagesToDisable": [
+                    "env1_standing_st2"
+                  ],
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "other": [
+                    "St3-F4"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St3-P4-Mc-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg starter øyeblikkelig med hjerte- og lungeredning (HLR).",
+              "answerTextNN": null,
+              "feedbackTextBM": "Da kan hun ikke ligge på siden.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St3-P4-Mc-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Snu henne over på ryggen og føl, lytt og se etter respirasjonsbevegelser.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "stageToEnable": "env1_standing_st2",
+                  "stagesToDisable": [
+                    "env1_standing_st4"
+                  ],
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "stageToEnable": "env1_kneeling_st3",
+                  "stagesToDisable": [
+                    "env1_kneeling_st4"
+                  ],
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "other": [
+                    "St5-F1"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "St3-P4-Mc-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St3-P4-Mc",
+          "panelElementType": 3
         }
       ],
       "attachedAssets": [],
@@ -1767,24 +1949,493 @@
     {
       "panelConstruction": [
         {
-          "imageId": 0,
-          "clickToClose": false,
-          "hiddenInitially": false,
-          "actionsOnEnabled": [],
-          "id": "AMK-Conversation-Image",
-          "panelElementType": 1
+          "answers": [
+            {
+              "answerTextBM": "Jeg legger personen i sideleie.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Hun må ligge på rygg under HLR.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg starter med hjerte- og lungeredning (HLR).",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvordan begynner du med HLR?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "St5-P1-D",
+                    "St5-P1-E",
+                    "St5-P1-F"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-P1-A",
+                    "St5-P1-B",
+                    "St5-P1-C"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St5-P1-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg roper på hjelp og fjerner meg fra situasjonen. Her må vi vente på profesjonelle!",
+              "answerTextNN": null,
+              "feedbackTextBM": "Nei, nå må du som førstehjelper starte å redde liv!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med 5 innblåsninger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil. 5 innblåsninger er for barn og ved drukning.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-D",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med 2 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil, innblåsinger først!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-E",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med 2 innblåsninger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra, riktig svar!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hva gjør du etter de 2 første innblåsingene?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "St5-P1-G",
+                    "St5-P1-H",
+                    "St5-P1-I"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-P1-D",
+                    "St5-P1-E"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St5-P1-F",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Plasserer hendene over venstre brystvorte og begynner med 30 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-G",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Plasserer hendene under venstre brystvorte og tar 100 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-H",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Plasserer hendene midt mellom brystvortene og tar 30 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvordan utfører du hjertekompresjonene?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "St5-P1-J",
+                    "St5-P1-K",
+                    "St5-P1-L"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-P1-G",
+                    "St5-P1-H"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St5-P1-I",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bruker en hånd mens jeg støtter hodet med den andre. Jeg trykker 2-3 cm ned i en takt på 60 per minutt.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil teknikk. Prøv igjen.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-J",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bruker håndroten, har strake armer og lener meg over personen. Jeg trykker 5-6 cm ned i en takt på 100 per minutt.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvor lenge skal du holde på med HLR?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "other": [
+                    "St5-P1-M",
+                    "St5-P1-N",
+                    "St5-P1-O"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-P1-J",
+                    "St5-P1-L"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St5-P1-K",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg bruker håndroten, sitter på kne inntil personen, trykker 2-3 cm ned i en takt på 60 pr minutt.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Her er du litt for treig og litt for forsiktig.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-L",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "I maks ti minutter. Da er det ikke håp for personen dessverre.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-M",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Til jeg ikke orker mer. Det er fryktelig slitsomt!",
+              "answerTextNN": null,
+              "feedbackTextBM": "Om du ikke orker mer, er det viktig at du roper om hjelp. Dere kan dele på å utføre HLR.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P1-N",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Til personen begynner å puste eller til profesjonell helsehjelp kommer.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "S4-F4"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-F1"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": "CPR-MiniGame",
+                  "actionType": 3
+                }
+              ],
+              "id": "St5-P1-O",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St5-P1-mc",
+          "panelElementType": 3
         }
       ],
+      "attachedAssets": [],
+      "headerTextBM": "Du verken hører, ser eller kjenner pust. Hva gjør du nå?",
+      "headerTextNN": null,
+      "id": "St5-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [],
       "attachedAssets": [
         {
-          "assetID": 12,
+          "assetID": 9,
           "targetId": null,
-          "addedWidth": 340.0
+          "addedWidth": 600.0
         }
       ],
-      "headerTextBM": "Spill av samtale med Akuttmedisinsk kommunikasjonssentral (AMK).",
+      "headerTextBM": "Hold jevn rytme og riktig hastighet!",
       "headerTextNN": null,
-      "id": "AMK-Conversation",
+      "id": "CPR-MiniGame",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg bare fortsetter med HLR. Han kan slutte å puste når som helst.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Hvis personen har våknet litt, vil det være unødvendig og smertefullt å fortsette med HLR.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P3-Mc-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg legger henne i sideleie for å holde luftveiene åpne, og legger over en jakke for å holde henne varm.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [
+                {
+                  "messageBM": "Riktig svar! Bli værende hos personen for å passe på at han ikke slutter å puste igjen.",
+                  "messageNN": "",
+                  "duration": 3.5,
+                  "delay": 0.0,
+                  "reopenMostRecentPanel": false,
+                  "panelIdToReopen": null,
+                  "actionType": 10
+                },
+                {
+                  "stageToEnable": "env1_kneeling_st4",
+                  "stagesToDisable": [
+                    "env1_kneeling_st3"
+                  ],
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "stageToEnable": "env1_standing_st6",
+                  "stagesToDisable": [
+                    "env1_standing_st2"
+                  ],
+                  "playFootsteps": false,
+                  "actionType": 8
+                }
+              ],
+              "id": "St5-P3-Mc-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg legger et teppe eller en jakke over personen før jeg går og ser hvordan det går med føreren av bilen.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil, personen kan slutte å puste igjen!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "actionsOnChosen": [],
+              "id": "St5-P3-Mc-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St5-P3-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "headerTextBM": "Gratulerer! Hun har begynt å puste igjen! Men hva gjør du nå?",
+      "headerTextNN": null,
+      "id": "St5-P3",
       "panelElementType": 0
     }
   ],
@@ -1802,22 +2453,22 @@
         },
         {
           "other": [
-            "Sc1St1-HotspotToCalling"
+            "St1-HotspotToCalling"
           ],
           "hidden": false,
           "actionType": 1
         }
       ],
       "criteriaIds": [
-        "Sc1St1_P2_Mc_C",
-        "Sc1St1_P3_Mc_E"
+        "St1_P2_Mc_C",
+        "St1_P3_Mc_E"
       ]
     },
     {
       "sActions": [
         {
           "other": [
-            "Sc1St1_F5"
+            "St1_F5"
           ],
           "hidden": false,
           "actionType": 1
@@ -1857,7 +2508,7 @@
         },
         {
           "other": [
-            "Sc1St2_phone"
+            "St2_phone"
           ],
           "hidden": false,
           "actionType": 1
@@ -1917,21 +2568,6 @@
         {
           "delayedActions": [
             {
-              "messageBM": "Husk at du alltid kan vende tilbake til tilskueren for å lytte til samtalen igjen.",
-              "messageNN": "",
-              "duration": 3.0,
-              "delay": 0.0,
-              "reopenMostRecentPanel": false,
-              "panelIdToReopen": null,
-              "actionType": 10
-            }
-          ],
-          "delay": 3.5,
-          "actionType": 13
-        },
-        {
-          "delayedActions": [
-            {
               "other": "AMK-Conversation",
               "actionType": 3
             }
@@ -1943,6 +2579,90 @@
       "criteriaIds": [
         "LegsChecked",
         "ArmsChecked"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "other": [
+            "St4-F4",
+            "St3-P4-Mc-B",
+            "St3-P4-Mc-C"
+          ],
+          "hidden": false,
+          "actionType": 1
+        },
+        {
+          "panelId": "St3-P4",
+          "headerTextBM": null,
+          "headerTextNN": null,
+          "actionType": 14
+        },
+        {
+          "messageBM": "Du kan ikke lenger se at den skadde puster!",
+          "messageNN": "",
+          "duration": 0.0,
+          "delay": 0.0,
+          "reopenMostRecentPanel": false,
+          "panelIdToReopen": null,
+          "actionType": 10
+        }
+      ],
+      "criteriaIds": [
+        "HadConversation4"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "delayedActions": [
+            {
+              "other": [
+                "PhoneConversation4"
+              ],
+              "interactable": true,
+              "actionType": 0
+            },
+            {
+              "other": "AMK-Conversation",
+              "actionType": 3
+            }
+          ],
+          "delay": 4.0,
+          "actionType": 13
+        }
+      ],
+      "criteriaIds": [
+        "St3-P4-Mc-A"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "other": "St5-P3",
+          "actionType": 3
+        },
+        {
+          "other": [
+            "St5-F3"
+          ],
+          "hidden": false,
+          "actionType": 1
+        }
+      ],
+      "criteriaIds": [
+        "CprSuccessful"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "changeToScene": "env1pos",
+          "actionType": 7
+        }
+      ],
+      "criteriaIds": [
+        "St5-P3-Mc-B"
       ]
     }
   ]
