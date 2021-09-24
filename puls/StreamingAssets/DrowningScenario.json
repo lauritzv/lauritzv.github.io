@@ -1,0 +1,2182 @@
+{
+  "panels": [
+    {
+      "panelConstruction": [
+        {
+          "videoFileName": null,
+          "clickToClose": true,
+          "hiddenInitially": false,
+          "soloMode": true,
+          "actionsOnEnabled": [],
+          "id": "AnimationPlayer",
+          "panelElementType": 2
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "AnimationPlayerPanel",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "descriptionBM": "En person i vannet holder på å drukne. Kan du se hvem?\n \nLukk menyen for å se deg omkring.",
+          "descriptionNN": null,
+          "id": "St1-P1-Description",
+          "panelElementType": 5
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Se animasjon om hvordan drukning foregår.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/10_Drukning.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St1-P1",
+                  "actionType": 5
+                }
+              ],
+              "id": "PlayAnimation10",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St1-P1-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "other": [
+            "St1-F1"
+          ],
+          "hidden": true,
+          "actionType": 1
+        },
+        {
+          "other": [
+            "St1-F2",
+            "St1-F3",
+            "St1-F4"
+          ],
+          "hidden": false,
+          "actionType": 1
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St1-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "videoFileName": "Video/St1-P2-group.m4v",
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St1-P2-Video",
+          "panelElementType": 2
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja",
+              "answerTextNN": null,
+              "feedbackTextBM": "Disse ungdommene herjer og har det gøy i vannet, og ingen av dem ser ut til å være i fare.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-P2-Mc-B"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St1-P2-Mc-PlayAnimation10",
+                    "St1-P2-Mc-C"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "St1-P2-Mc-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei",
+              "answerTextNN": null,
+              "feedbackTextBM": "Disse ungdommene herjer og har det gøy i vannet, og ingen av dem ser ut til å være i fare.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-F2"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St1-P2-Mc-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-F2"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "actionType": 2
+                }
+              ],
+              "id": "St1-P2-Mc-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om hvordan drukning foregår.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/10_Drukning.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St1-P2",
+                  "actionType": 5
+                }
+              ],
+              "id": "St1-P2-Mc-PlayAnimation10",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St1-P2-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Er noen av ungdommene i ferd med å drukne?",
+      "headerTextNN": null,
+      "id": "St1-P2",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "videoFileName": "Video/St1-P3-swimming-man.m4v",
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St1-P4-Video",
+          "panelElementType": 2
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-P3-Mc-PlayAnimation10"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "St1-P3-Mc-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-F3"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "actionType": 2
+                }
+              ],
+              "id": "St1-P3-Mc-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om hvordan drukning skjer.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/10_Drukning.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St1-P3",
+                  "actionType": 5
+                }
+              ],
+              "id": "St1-P3-Mc-PlayAnimation10",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St1-P3-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Er denne personen i ferd med å drukne?",
+      "headerTextNN": null,
+      "id": "St1-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "videoFileName": "Video/St1-P4-struggling-child.m4v",
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St1-P4-Video",
+          "panelElementType": 2
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ja",
+              "answerTextNN": null,
+              "feedbackTextBM": "Riktig! Drukning skjer uten lyder, plasking eller store bevegelser. Personen trår vannet og har nok med å prøve å holde hodet over vann.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-F2",
+                    "St1-F3",
+                    "St1-F4"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "actionType": 2
+                }
+              ],
+              "id": "St1-P4-Mc-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nei",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St1-P4-Mc-PlayAnimation10"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "St1-P4-Mc-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om hvordan drukning foregår.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/10_Drukning.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St1-P4",
+                  "actionType": 5
+                }
+              ],
+              "id": "St1-P4-Mc-PlayAnimation10",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St1-P4-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Er denne personen i ferd med å drukne?",
+      "headerTextNN": null,
+      "id": "St1-P4",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 16,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St2-P1-Image",
+          "panelElementType": 1
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg må finne guttens foresatte, de bør varsles først.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Ikke bruk tid på dette, gutten kan drukne i mellomtiden!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P1-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Det er ingen tid å miste - jeg kaster med uti med en gang!",
+              "answerTextNN": null,
+              "feedbackTextBM": "Du må også tenke på egen sikkerhet. Dere kan begge drukne hvis gutten får panikk og klamrer seg til deg.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P1-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg må finne en livbøye eller annet med oppdrift for å sikre at vi holder oss flytende.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! Husk å varsle andre rundt dere om hva som skjer.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St2-F2",
+                    "St2-F3",
+                    "St2-F4"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St2-F1"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St2-P1-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St2-P1-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Gutten er i ferd med å drukne. Hva bør du gjøre først?",
+      "headerTextNN": null,
+      "id": "St2-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg henter livbøyen og legger på svøm selv, selv om det tar lengre tid.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P2-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg henter livbøyen og kaster den ut til mannen som svømmer i nærheten av gutten.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St2-F2"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "actionType": 2
+                }
+              ],
+              "id": "St2-P2-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St2-P2-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Du har funnet livbøyen og ser en mann som svømmer i nærheten av gutten. Hva gjør du?",
+      "headerTextNN": null,
+      "id": "St2-P2",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg ber han ringe Medisinsk nødtelefon 112.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil nummer!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P3-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg ber han ringe Medisinsk nødtelefon 113.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Riktig! Det er viktig å delegere ansvar slik at den som står i fare for å drukne får hjelp i tide.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St2-F3"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St2-P3-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg ber han ringe Medisinsk nødtelefon 110.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Feil nummer!",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P3-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St2-P3-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Din egen mobil ligger igjen på land, men denne mannen sitter med mobilen fremme. Hva gjør du?",
+      "headerTextNN": null,
+      "id": "St2-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Ingenting, jeg lar dem fortsette å bade.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P4-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg roper til dem at de må komme seg på opp på land slik at de ikke forstyrrer livredningen.",
+              "answerTextNN": null,
+              "feedbackTextBM": null,
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St2-F4"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "actionType": 2
+                }
+              ],
+              "id": "St2-P4-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St2-P4-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Ungdommene har ikke lagt merke til hva som foregår. Hva gjør du?",
+      "headerTextNN": null,
+      "id": "St2-P4",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Man slipper livbøyen for å ta tak i personen med begge armer.",
+              "answerTextNN": null,
+              "feedbackTextBM": "En som holder på å drukne kan lett få panikk og dra andre under. Begge står da i fare for å drukne.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P5-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Man sender fra seg livbøyen slik at personen selv får tak i den. Viktig å holde seg på trygg avstand.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Det er ikke sikkert den som drukner har nok bevissthet eller krefter til å gripe tak i livbøyen.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St2-P5-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Man holder fast i livbøyen med én arm mens man tar tak i personen med den andre.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Riktig! Man bør aldri slippe tak i livbøyen. Legg merke til svømmeteknikken.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": true,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St2-F5"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St2-P5-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St2-P5-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Du kaster livbøyen til den svømmende mannen.\nHva gjør man med livbøyen når man kommer fram til en som holder på å drukne?",
+      "headerTextNN": null,
+      "id": "St2-P5",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 18,
+          "hiddenInitially": false,
+          "soloMode": true,
+          "actionsOnEnabled": null,
+          "id": "St3-P1-Image",
+          "panelElementType": 1
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "stageToEnable": "St4-Standing",
+          "stageToDisable": "St2-Standing",
+          "playFootsteps": true,
+          "actionType": 8
+        },
+        {
+          "criteriaId": "ChildOnLand",
+          "actionType": 9
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St3-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [],
+      "attachedAssets": [
+        {
+          "assetID": 8,
+          "targetId": null,
+          "addedWidth": 600.0
+        }
+      ],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Hjerte- og lungeredning – hold jevn rytme og riktig hastighet!",
+      "headerTextNN": null,
+      "id": "CPR-MiniGame",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg ber noen om å holde folk på avstand.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! Mannen med mobilen tar på seg oppgaven.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-Kneel"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-F1"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                }
+              ],
+              "id": "St4-P1-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg ber dem komme nærmere for hjelpe til med livredningen.",
+              "answerTextNN": null,
+              "feedbackTextBM": "For mange folk kan forstyrre livredningen, de bør holde seg på avstand.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P1-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg ber dem finne håndklær for å tørke og varme gutten.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Dette er ikke første prioritet når du ikke vet om gutten puster eller ikke.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P1-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St4-P1-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Det er mange folk på brygga. Hva gjør du?",
+      "headerTextNN": null,
+      "id": "St4-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg starter med hjertekompresjoner med én gang.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Det er noe annet du bør sjekke først ...",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P2-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med innblåsinger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Er det ikke noe du har glemt å sjekke først?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P2-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg sjekker bevisstheten hans først.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-F2"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-F3"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "messageBM": "Bra! Sjekk bevissthet ved å riste, rope og klype hardt på innsiden av armen.",
+                  "messageNN": "",
+                  "duration": 0.0,
+                  "delay": 0.0,
+                  "reopenMostRecentPanel": false,
+                  "panelIdToReopen": "St4-P3",
+                  "actionType": 10
+                }
+              ],
+              "id": "St4-P2-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om sjekk av bevissthet.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/02_Bevissthet.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St4-P2",
+                  "actionType": 5
+                }
+              ],
+              "id": "PlayAnimation02",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St4-P2-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Gutten er blek og virker bevisstløs. Hva gjør du først?",
+      "headerTextNN": null,
+      "id": "St4-P2",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg undersøker luftveiene for å finne ut om han puster.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! Du kan se, kjenne og lytte etter pust.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-P3-B",
+                    "St4-P3-C",
+                    "PlayAnimation04"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-P3-D",
+                    "St4-P3-E",
+                    "St4-P3-F"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "panelId": null,
+                  "headerTextBM": "Gutten puster ikke! Hva gjør du nå?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                }
+              ],
+              "id": "St4-P3-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med innblåsinger nå.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Er det ikke noe du bør sjekke først?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg legger han i sideleie.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Er det ikke noe du bør sjekke først?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg må finne ut om han har puls.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Ikke bruk tid på dette, pulsen kan være vanskelig å finne.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-D",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg må sørge for at han har åpne luftveier.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-P3-D",
+                    "St4-P3-F",
+                    "St4-F3"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-F5",
+                    "St4-P3-I",
+                    "St4-P3-J",
+                    "St4-P3-K",
+                    "PlayAnimation06-2"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "panelId": null,
+                  "headerTextBM": "Hvordan begynner du med HLR ved drukning?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                },
+                {
+                  "messageBM": "Riktig! Snu han først over på siden for å få ut vann fra luftveiene.",
+                  "messageNN": "",
+                  "duration": 0.0,
+                  "delay": 0.0,
+                  "reopenMostRecentPanel": false,
+                  "panelIdToReopen": "St4-P5",
+                  "actionType": 10
+                }
+              ],
+              "id": "St4-P3-E",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg ringer 113 en gang til for å be dem om å skynde seg.",
+              "answerTextNN": null,
+              "feedbackTextBM": "De er allerede på vei. Hva kan du gjøre for å hjelpe gutten?",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-F",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med 5 innblåsinger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! Ved drukning og på barn skal man begynne med 5 innblåsinger pga. stor oksygenmangel.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": true,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-P3-J",
+                    "St4-P3-K"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-P3-L",
+                    "St4-P3-M",
+                    "St4-P3-N"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "panelId": null,
+                  "headerTextBM": "Gutten puster fremdeles ikke. Hva gjør du etter innblåsingene?",
+                  "headerTextNN": null,
+                  "actionType": 14
+                }
+              ],
+              "id": "St4-P3-I",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med 2 innblåsinger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-J",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg begynner med 30 hjertekompresjoner.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-K",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "30 hjertekompresjoner med begge hender, deretter 2 innblåsinger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bruk bare én hånd på barn. Man trenger ikke trykke så hardt på en liten kropp.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-L",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "30 hjertekompresjoner med én hånd, deretter 5 innblåsinger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Det er bare første gang du skal gi 5 innblåsinger.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P3-M",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "30 hjertekompresjoner med én hånd, deretter 2 innblåsinger.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-F4"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-F3"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "messageBM": "Ja, fortsett med 30:2 med én hånd. Husk å bare blåse inn en munnfull luft; barn har mindre lunger.",
+                  "messageNN": "",
+                  "duration": 0.0,
+                  "delay": 0.0,
+                  "reopenMostRecentPanel": false,
+                  "panelIdToReopen": "St4-P4",
+                  "actionType": 10
+                }
+              ],
+              "id": "St4-P3-N",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om sjekk av åndedrett.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/04_Anderett.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St4-P3",
+                  "actionType": 5
+                }
+              ],
+              "id": "PlayAnimation04",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om HLR på barn.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": false,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/06_HLR_pa_barn.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St4-P3",
+                  "actionType": 5
+                }
+              ],
+              "id": "PlayAnimation06-2",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St4-P3-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Gutten reagerer ikke, og du kan gå utifra at han er bevisstløs. Hva gjør du?",
+      "headerTextNN": null,
+      "id": "St4-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 19,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St4-P4-Image",
+          "panelElementType": 1
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg ber den foresatte legge gutten ned igjen og får noen til å berolige og trøste henne.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St4-F4"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St4-CPR-MiniGame"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "messageBM": "Riktig! Hvis man løfter på den skadde, kan luftveiene bli stengt.",
+                  "messageNN": "",
+                  "duration": 0.0,
+                  "delay": 0.0,
+                  "reopenMostRecentPanel": false,
+                  "panelIdToReopen": "CPR-MiniGame",
+                  "actionType": 10
+                }
+              ],
+              "id": "St4-P4-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg lar den foresatte løfte gutten opp. Nå kan hun overta ansvaret for han.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Nei, gutten puster ikke, og dere må fortsette med HLR på et hardt underlag nå.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P4-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg skyver henne unna og ber noen om å ta henne med seg til et annet sted.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Hun er nok bare veldig redd og trenger psykisk førstehjelp.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P4-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St4-P4-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Guttens foresatte prøver å løfte han opp! Hva gjør du?",
+      "headerTextNN": null,
+      "id": "St4-P4",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "descriptionBM": "• Du snur gutten over på siden for å tømme lungene for vann.\n• Du åpner luftveiene ved å ta hakeløft.\n• Er du klar for å utføre hjerte- og lungeredning?\n \nLukk menyen for å fortsette.",
+          "descriptionNN": null,
+          "id": "St4-P5-description",
+          "panelElementType": 5
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Se animasjon om frie luftveier.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/03_Frie_luftveier.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St4-P5",
+                  "actionType": 5
+                }
+              ],
+              "id": "PlayAnimation03",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om HLR på barn.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/06_HLR_pa_barn.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St4-P5",
+                  "actionType": 5
+                }
+              ],
+              "id": "PlayAnimation06-1",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St4-P5-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "other": [
+            "St4-F5"
+          ],
+          "hidden": true,
+          "actionType": 1
+        },
+        {
+          "other": [
+            "St4-F3"
+          ],
+          "hidden": false,
+          "actionType": 1
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St4-P5",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "videoFileName": "Video/St5-P1-waking-up.m4v",
+          "clickToClose": false,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St1-P4-Video",
+          "panelElementType": 2
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg fortsetter med HLR helt til ambulansen kommer for å være sikker på at hjertet fortsetter å slå.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Det er smertefullt og unødvendig å fortsette med HLR etter at pasienten har begynt å puste og hjertet slår.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St5-P1-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Nå kan jeg overlate ansvaret til hans foresatte, jeg går lettet og glad avgårde.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Pasienten er ikke utenfor fare før ambulansen har kommet. Du bør ikke forlate han ennå.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St5-P1-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg får tak i et teppe eller håndkle for å holde han varm og snakker rolig med han.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St5-F2"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-F1"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": "St5-P2",
+                  "actionType": 3
+                }
+              ],
+              "id": "St5-P1-C",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St5-P1-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Gutten begynner å hoste! Hva gjør du når han kommer til bevissthet?",
+      "headerTextNN": null,
+      "id": "St5-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg setter han på fanget for å varme og beroliger han.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Det er en god tanke, men det er ikke korrekt handling.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St5-P2-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg legger han i sideleie: tar tak i skulder og hofte og vender kroppen hans mot meg.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Bra! Du har bedre kontroll når du vender kroppen mot deg.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": false,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "other": [
+                    "St5-F2"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-F3"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                },
+                {
+                  "stageToEnable": "St6-Standing",
+                  "stageToDisable": "St4-Standing",
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "stageToEnable": "St5-Kneeling",
+                  "stageToDisable": "St4-Kneeling",
+                  "playFootsteps": false,
+                  "actionType": 8
+                }
+              ],
+              "id": "St5-P2-B",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg legger han i sideleie: tar tak i skulder og hofte og vender kroppen hans bort fra meg.",
+              "answerTextNN": null,
+              "feedbackTextBM": "Ved å vende personen bort fra deg, har du liten kontroll på hvordan kroppen hans blir liggende.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St5-P2-C",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Se animasjon om å legge i stabilt sideleie.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/07_Sideleie.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": "St5-P2",
+                  "actionType": 5
+                }
+              ],
+              "id": "St5-PlayAnimation07",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St5-P2-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Dere venter fortsatt på ambulansen. Gutten virker utslitt og forvirret ...",
+      "headerTextNN": null,
+      "id": "St5-P2",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "descriptionBM": "• Du snakker rolig med pasienten for å gi han trygghet og ro.\n• Du følger med på respirasjonen: puster han jevnt?\n• Samtidig holder du pasienten varm og følger med på sirkulasjonen: Viser han tegn tilnedsatt sirkulasjon?\n \n Lukk menyen for å vente til ambulansepersonell kommer til stedet.",
+          "descriptionNN": null,
+          "id": "St5-P3-Description",
+          "panelElementType": 5
+        },
+        {
+          "answers": [
+            {
+              "answerTextBM": "Se animasjon om nedsatt sirkulasjon.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": false,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": true,
+              "actionsOnChosen": [
+                {
+                  "other": "AnimationPlayerPanel",
+                  "actionType": 3
+                },
+                {
+                  "videoFrameId": "AnimationPlayer",
+                  "videoFileName": "Animations/09_Sirkulasjon.mp4",
+                  "closeOnCompleted": true,
+                  "openPanelOnClosed": null,
+                  "actionType": 5
+                }
+              ],
+              "id": "St5-PlayAnimation09",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St5-P3-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "other": [
+            "St5-Stand"
+          ],
+          "hidden": false,
+          "actionType": 1
+        },
+        {
+          "other": [
+            "St5-F3"
+          ],
+          "hidden": true,
+          "actionType": 1
+        },
+        {
+          "criteriaId": "WaitingForAmbulance",
+          "actionType": 9
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St5-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "descriptionBM": "Gratulerer! Ambulansen har ankommet skadestedet, og pasienten er i trygge hender.",
+          "descriptionNN": null,
+          "id": "St6-P1-Description",
+          "panelElementType": 5
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "other": [
+            "St6-F1"
+          ],
+          "hidden": true,
+          "actionType": 1
+        },
+        {
+          "other": [
+            "St6-F2"
+          ],
+          "hidden": false,
+          "actionType": 1
+        },
+        {
+          "other": "St6-P2",
+          "actionType": 3
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St6-P1",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [],
+      "attachedAssets": [
+        {
+          "assetID": 14,
+          "targetId": null,
+          "addedWidth": 240.0
+        }
+      ],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St6-P2",
+      "panelElementType": 0
+    }
+  ],
+  "criteriaActions": [
+    {
+      "sActions": [
+        {
+          "delayedActions": [
+            {
+              "politeActions": [
+                {
+                  "stageToEnable": "St2-Standing",
+                  "stageToDisable": "St1-Standing",
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "delayedActions": [
+                    {
+                      "other": [
+                        "St2-F1"
+                      ],
+                      "hidden": false,
+                      "actionType": 1
+                    },
+                    {
+                      "other": "St2-P1",
+                      "actionType": 3
+                    }
+                  ],
+                  "delay": 1.0,
+                  "actionType": 13
+                }
+              ],
+              "actionType": 16
+            }
+          ],
+          "delay": 0.5,
+          "actionType": 13
+        }
+      ],
+      "criteriaIds": [
+        "St1-P4-Mc-A"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "other": [
+            "St2-F5"
+          ],
+          "hidden": false,
+          "actionType": 1
+        }
+      ],
+      "criteriaIds": [
+        "St2-P2-B",
+        "St2-P3-B",
+        "St2-P4-B"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "delayedActions": [
+            {
+              "politeActions": [
+                {
+                  "other": "St3-P1",
+                  "actionType": 3
+                }
+              ],
+              "actionType": 16
+            }
+          ],
+          "delay": 0.5,
+          "actionType": 13
+        }
+      ],
+      "criteriaIds": [
+        "St2-P5-C"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "delayedActions": [
+            {
+              "other": [
+                "St4-F1"
+              ],
+              "hidden": false,
+              "actionType": 1
+            }
+          ],
+          "delay": 2.0,
+          "actionType": 13
+        }
+      ],
+      "criteriaIds": [
+        "ChildOnLand"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "other": "St5-P1",
+          "actionType": 3
+        },
+        {
+          "other": [
+            "St4-CPR-MiniGame"
+          ],
+          "hidden": true,
+          "actionType": 1
+        },
+        {
+          "other": [
+            "St5-F1"
+          ],
+          "hidden": false,
+          "actionType": 1
+        }
+      ],
+      "criteriaIds": [
+        "CprSuccessful"
+      ]
+    },
+    {
+      "sActions": [
+        {
+          "delayedActions": [
+            {
+              "politeActions": [
+                {
+                  "changeToScene": "enviro-standing",
+                  "actionType": 7
+                }
+              ],
+              "actionType": 16
+            }
+          ],
+          "delay": 3.6,
+          "actionType": 13
+        }
+      ],
+      "criteriaIds": [
+        "WaitingForAmbulance"
+      ]
+    }
+  ]
+}
