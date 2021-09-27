@@ -1924,172 +1924,12 @@
           "imageId": 12,
           "hiddenInitially": false,
           "soloMode": false,
-          "actionsOnEnabled": [
-            {
-              "criteriaId": "ArmsChecked",
-              "actionType": 9
-            },
-            {
-              "other": [
-                "St3-F2"
-              ],
-              "hidden": true,
-              "actionType": 1
-            }
-          ],
+          "actionsOnEnabled": [],
           "id": "St3-ArmsCloseup",
           "panelElementType": 1
         },
         {
-          "descriptionBM": "Hun blør litt fra armen, men ikke med fare for sirkulasjonssvikt.\nDu kan ikke kjenne noe brudd i armene.",
-          "descriptionNN": null,
-          "id": "St3-P2_Description",
-          "panelElementType": 5
-        }
-      ],
-      "attachedAssets": [],
-      "actionsOnClosedPanel": [],
-      "headerTextBM": null,
-      "headerTextNN": null,
-      "id": "St3-P2",
-      "panelElementType": 0
-    },
-    {
-      "panelConstruction": [
-        {
-          "imageId": 13,
-          "hiddenInitially": false,
-          "soloMode": false,
-          "actionsOnEnabled": [
-            {
-              "criteriaId": "LegsChecked",
-              "actionType": 9
-            },
-            {
-              "other": [
-                "St3-F3"
-              ],
-              "hidden": true,
-              "actionType": 1
-            }
-          ],
-          "id": "St3-LowerBodyCloseup",
-          "panelElementType": 1
-        },
-        {
-          "descriptionBM": "Det er ikke tegn til blod fra bena.\nDu kan heller ikke kjenne noe brudd.",
-          "descriptionNN": null,
-          "id": "St3-P3_Description",
-          "panelElementType": 5
-        }
-      ],
-      "attachedAssets": [],
-      "actionsOnClosedPanel": [],
-      "headerTextBM": null,
-      "headerTextNN": null,
-      "id": "St3-P3",
-      "panelElementType": 0
-    },
-    {
-      "panelConstruction": [
-        {
           "answers": [
-            {
-              "answerTextBM": "Få hjelp til å legge offeret i stabilt sideleie.",
-              "answerTextNN": null,
-              "feedbackTextBM": "",
-              "feedbackTextNN": "",
-              "isCorrectAnswer": true,
-              "initiallyVisible": true,
-              "initiallyDisabled": false,
-              "disableOnChosen": true,
-              "hideOnChosen": true,
-              "registerCriteriaOnChosen": true,
-              "reopenPanelAfterFeedback": true,
-              "checkmarkOnChosen": true,
-              "isAVideoButton": false,
-              "actionsOnChosen": [
-                {
-                  "stageToEnable": "env1_kneeling_st4",
-                  "stageToDisable": "env1_kneeling_st3",
-                  "playFootsteps": false,
-                  "actionType": 8
-                },
-                {
-                  "stageToEnable": "env1_standing_st4",
-                  "stageToDisable": "env1_standing_st2",
-                  "playFootsteps": false,
-                  "actionType": 8
-                },
-                {
-                  "other": [
-                    "St3-F4",
-                    "PlayAnimation07",
-                    "PlayAnimation08"
-                  ],
-                  "hidden": true,
-                  "actionType": 1
-                }
-              ],
-              "id": "St3-P4-Mc-A",
-              "panelElementType": 4
-            },
-            {
-              "answerTextBM": "Jeg starter øyeblikkelig med hjerte- og lungeredning (HLR).",
-              "answerTextNN": null,
-              "feedbackTextBM": "Da kan hun ikke ligge på siden.",
-              "feedbackTextNN": "",
-              "isCorrectAnswer": false,
-              "initiallyVisible": false,
-              "initiallyDisabled": false,
-              "disableOnChosen": true,
-              "hideOnChosen": false,
-              "registerCriteriaOnChosen": false,
-              "reopenPanelAfterFeedback": true,
-              "checkmarkOnChosen": true,
-              "isAVideoButton": false,
-              "actionsOnChosen": [],
-              "id": "St3-P4-Mc-B",
-              "panelElementType": 4
-            },
-            {
-              "answerTextBM": "Jeg snur henne over på ryggen og føler, lytter og ser etter respirasjonsbevegelser.",
-              "answerTextNN": null,
-              "feedbackTextBM": "",
-              "feedbackTextNN": "",
-              "isCorrectAnswer": true,
-              "initiallyVisible": false,
-              "initiallyDisabled": false,
-              "disableOnChosen": true,
-              "hideOnChosen": false,
-              "registerCriteriaOnChosen": false,
-              "reopenPanelAfterFeedback": true,
-              "checkmarkOnChosen": true,
-              "isAVideoButton": false,
-              "actionsOnChosen": [
-                {
-                  "stageToEnable": "env1_standing_st2",
-                  "stageToDisable": "env1_standing_st4",
-                  "playFootsteps": false,
-                  "actionType": 8
-                },
-                {
-                  "stageToEnable": "env1_kneeling_st3",
-                  "stageToDisable": "env1_kneeling_st4",
-                  "playFootsteps": false,
-                  "actionType": 8
-                },
-                {
-                  "other": [
-                    "St5-F1"
-                  ],
-                  "hidden": false,
-                  "actionType": 1
-                }
-              ],
-              "id": "St3-P4-Mc-C",
-              "panelElementType": 4
-            },
             {
               "answerTextBM": "Se animasjon om å stoppe blødning.",
               "answerTextNN": null,
@@ -2113,13 +1953,83 @@
                   "videoFrameId": "AnimationPlayer",
                   "videoFileName": "Animations/08_Stanse_blodning.mp4",
                   "closeOnCompleted": true,
-                  "openPanelOnClosed": "St3-P4",
+                  "openPanelOnClosed": null,
                   "actionType": 5
                 }
               ],
               "id": "PlayAnimation08",
               "panelElementType": 4
-            },
+            }
+          ],
+          "id": "St3-P2-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "criteriaId": "ArmsChecked",
+          "actionType": 9
+        },
+        {
+          "other": [
+            "St3-F2"
+          ],
+          "hidden": true,
+          "actionType": 1
+        }
+      ],
+      "headerTextBM": "Hun blør litt fra armen, men ikke med fare for sirkulasjonssvikt. Du kan ikke kjenne noe brudd i armene.\n \nLukk menyen for å fortsette.",
+      "headerTextNN": null,
+      "id": "St3-P2",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "imageId": 13,
+          "hiddenInitially": false,
+          "soloMode": false,
+          "actionsOnEnabled": [],
+          "id": "St3-LowerBodyCloseup",
+          "panelElementType": 1
+        },
+        {
+          "descriptionBM": "Det er ikke tegn til blod fra bena.\nDu kan heller ikke kjenne noe brudd.\n \nLukk menyen for å fortsette.",
+          "descriptionNN": null,
+          "id": "St3-P3_Description",
+          "panelElementType": 5
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [
+        {
+          "criteriaId": "LegsChecked",
+          "actionType": 9
+        },
+        {
+          "other": [
+            "St3-F3"
+          ],
+          "hidden": true,
+          "actionType": 1
+        }
+      ],
+      "headerTextBM": null,
+      "headerTextNN": null,
+      "id": "St3-P3",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "descriptionBM": "Du får hjelp til å legge offeret i sideleie.\n \nLukk menyen for å fortsette.",
+          "descriptionNN": null,
+          "id": "St3-P4-Description",
+          "panelElementType": 5
+        },
+        {
+          "answers": [
             {
               "answerTextBM": "Se animasjon om å legge i stabilt sideleie.",
               "answerTextNN": null,
@@ -2143,7 +2053,7 @@
                   "videoFrameId": "AnimationPlayer",
                   "videoFileName": "Animations/07_Sideleie.mp4",
                   "closeOnCompleted": true,
-                  "openPanelOnClosed": "St3-P4",
+                  "openPanelOnClosed": null,
                   "actionType": 5
                 }
               ],
@@ -2156,10 +2066,114 @@
         }
       ],
       "attachedAssets": [],
-      "actionsOnClosedPanel": [],
+      "actionsOnClosedPanel": [
+        {
+          "stageToEnable": "env1_kneeling_st4",
+          "stageToDisable": "env1_kneeling_st3",
+          "playFootsteps": false,
+          "actionType": 8
+        },
+        {
+          "stageToEnable": "env1_standing_st4",
+          "stageToDisable": "env1_standing_st2",
+          "playFootsteps": false,
+          "actionType": 8
+        },
+        {
+          "other": [
+            "St3-F4",
+            "PlayAnimation07"
+          ],
+          "hidden": true,
+          "actionType": 1
+        },
+        {
+          "criteriaId": "St3-P4",
+          "actionType": 9
+        }
+      ],
       "headerTextBM": null,
       "headerTextNN": null,
       "id": "St3-P4",
+      "panelElementType": 0
+    },
+    {
+      "panelConstruction": [
+        {
+          "answers": [
+            {
+              "answerTextBM": "Jeg starter øyeblikkelig med hjerte- og lungeredning (HLR).",
+              "answerTextNN": null,
+              "feedbackTextBM": "Da kan hun ikke ligge på siden.",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": false,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [],
+              "id": "St4-P1-Mc-A",
+              "panelElementType": 4
+            },
+            {
+              "answerTextBM": "Jeg snur henne over på ryggen og føler, lytter og ser etter respirasjonsbevegelser.",
+              "answerTextNN": null,
+              "feedbackTextBM": "",
+              "feedbackTextNN": "",
+              "isCorrectAnswer": true,
+              "initiallyVisible": true,
+              "initiallyDisabled": false,
+              "disableOnChosen": true,
+              "hideOnChosen": false,
+              "registerCriteriaOnChosen": false,
+              "reopenPanelAfterFeedback": true,
+              "checkmarkOnChosen": true,
+              "isAVideoButton": false,
+              "actionsOnChosen": [
+                {
+                  "stageToEnable": "env1_standing_st2",
+                  "stageToDisable": "env1_standing_st4",
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "stageToEnable": "env1_kneeling_st3",
+                  "stageToDisable": "env1_kneeling_st4",
+                  "playFootsteps": false,
+                  "actionType": 8
+                },
+                {
+                  "other": [
+                    "St4-F1"
+                  ],
+                  "hidden": true,
+                  "actionType": 1
+                },
+                {
+                  "other": [
+                    "St5-F1"
+                  ],
+                  "hidden": false,
+                  "actionType": 1
+                }
+              ],
+              "id": "St4-P1-Mc-B",
+              "panelElementType": 4
+            }
+          ],
+          "id": "St4-P1-Mc",
+          "panelElementType": 3
+        }
+      ],
+      "attachedAssets": [],
+      "actionsOnClosedPanel": [],
+      "headerTextBM": "Du kan ikke lenger se at den skadde puster! Hva gjør du nå?",
+      "headerTextNN": null,
+      "id": "St4-P1",
       "panelElementType": 0
     },
     {
@@ -2947,18 +2961,10 @@
         },
         {
           "other": [
-            "St4-F4",
-            "St3-P4-Mc-B",
-            "St3-P4-Mc-C"
+            "St4-F1"
           ],
           "hidden": false,
           "actionType": 1
-        },
-        {
-          "panelId": "St3-P4",
-          "headerTextBM": null,
-          "headerTextNN": null,
-          "actionType": 14
         },
         {
           "messageBM": "Du kan ikke lenger se at den skadde puster!",
@@ -2968,12 +2974,6 @@
           "reopenMostRecentPanel": false,
           "panelIdToReopen": null,
           "actionType": 10
-        },
-        {
-          "panelId": "St3-P4",
-          "headerTextBM": "Du kan ikke lenger se at den skadde puster! Hva gjør du nå?",
-          "headerTextNN": null,
-          "actionType": 14
         }
       ],
       "criteriaIds": [
@@ -2999,16 +2999,21 @@
         {
           "delayedActions": [
             {
-              "other": "AMK-Conversation",
-              "actionType": 3
+              "politeActions": [
+                {
+                  "other": "AMK-Conversation",
+                  "actionType": 3
+                }
+              ],
+              "actionType": 16
             }
           ],
-          "delay": 4.0,
+          "delay": 3.6,
           "actionType": 13
         }
       ],
       "criteriaIds": [
-        "St3-P4-Mc-A"
+        "St3-P4"
       ]
     },
     {
