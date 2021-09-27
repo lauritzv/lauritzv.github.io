@@ -1,0 +1,181 @@
+{
+  "glossary": [
+    {
+      "id": "sc1-name",
+      "bokmal": "Trafikkulykke",
+      "nynorsk": "Trafikkulukke"
+    },
+    {
+      "id": "sc2-name",
+      "bokmal": "Drukningsulykke",
+      "nynorsk": "Drukningsulukke"
+    },
+    {
+      "id": "credits",
+      "bokmal": "Utviklet av Sonat Consulting Bergen AS for Fagbokforlaget med støtte fra Utdanningsdirektoratet. Foto: Matt Kemp",
+      "nynorsk": "Utviklet av Sonat Consulting Bergen AS for Fagbokforlaget med stønad frå Utdanningsdirektoratet. Foto: Matt Kemp"
+    },
+    {
+      "id": "cpr-timing-fast",
+      "bokmal": "For raskt!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-timing-slow",
+      "bokmal": "For sent!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-timing-good",
+      "bokmal": "God timing!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-rhytm-fast",
+      "bokmal": "For rask rytme!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-rhytm-slow",
+      "bokmal": "For sen rytme!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-rhytm-good",
+      "bokmal": "God hastighet på rytmen!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-correct-start-breaths",
+      "bokmal": "Korrekt start!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-incorrect-start-compressions",
+      "bokmal": "Startet ikke med kompresjoner",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-number-of-compressions-was",
+      "bokmal": "Antall kompresjoner var",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-compression-button-label",
+      "bokmal": "Kompresjon",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-too-many-initial-breaths",
+      "bokmal": "For mange innblåsinger",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-incorrect-start-initial-breaths",
+      "bokmal": "Startet ikke med innblåsinger",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-wrong-amount-breaths",
+      "bokmal": "Feil antall innblåsinger",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-number-of-breaths",
+      "bokmal": "Antall innblåsinger",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-initial-breaths-incomplete",
+      "bokmal": "Har ikke startet med korrekte innblåsinger!",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-correct-amount-breaths",
+      "bokmal": "Korrekt antall innblåsinger",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-bpm-measurement",
+      "bokmal": "i minuttet",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-perform-compression",
+      "bokmal": "1: Utfør\nkompresjon",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-perform-breath",
+      "bokmal": "2: Utfør\ninnblåsing",
+      "nynorsk": ""
+    },
+    {
+      "id": "cpr-restart",
+      "bokmal": "Omstart",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-title",
+      "bokmal": "Innstillinger",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-soundlevel-label",
+      "bokmal": "Lydnivå:",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-master-volume",
+      "bokmal": "Helhetlig nivå",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-sfx-volume",
+      "bokmal": "Lydeffekter og filmlyd",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-ambience-volume",
+      "bokmal": "Bakgrunnslyd",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-input-label",
+      "bokmal": "Styring:",
+      "nynorsk": ""
+    },
+    {
+      "id": "settings-sensitivity",
+      "bokmal": "Følsomhet ved\npanorering",
+      "nynorsk": "Følsemd ved\npanorering"
+    },
+    {
+      "id": "settings-quit-scenario",
+      "bokmal": "Avslutt scenarioet",
+      "nynorsk": ""
+    },
+    {
+      "id": "amk-start",
+      "bokmal": "Start samtalen med 113",
+      "nynorsk": ""
+    },
+    {
+      "id": "amk-continue",
+      "bokmal": "Fortsett samtalen",
+      "nynorsk": ""
+    },
+    {
+      "id": "gameover-quit",
+      "bokmal": "Avslutt",
+      "nynorsk": ""
+    },
+    {
+      "id": "gameover-restart",
+      "bokmal": "Start på nytt",
+      "nynorsk": ""
+    }
+  ],
+  "name": "GlossaryCreator",
+  "hideFlags": 0
+}
