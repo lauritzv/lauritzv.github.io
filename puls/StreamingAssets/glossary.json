@@ -1,6 +1,11 @@
 {
   "glossary": [
     {
+      "id": "title",
+      "bokmal": "Lær førstehjelp",
+      "nynorsk": ""
+    },
+    {
       "id": "sc1-name",
       "bokmal": "Trafikkulykke",
       "nynorsk": "Trafikkulukke"
@@ -12,8 +17,8 @@
     },
     {
       "id": "credits",
-      "bokmal": "Utviklet av Sonat Consulting Bergen AS for Fagbokforlaget med støtte fra Utdanningsdirektoratet. Foto: Matt Kemp",
-      "nynorsk": "Utviklet av Sonat Consulting Bergen AS for Fagbokforlaget med stønad frå Utdanningsdirektoratet. Foto: Matt Kemp"
+      "bokmal": "Utviklet av Sonat Consulting Bergen AS for Fagbokforlaget\nmed støtte fra Utdanningsdirektoratet.   Foto: Matt Kemp",
+      "nynorsk": "Utviklet av Sonat Consulting Bergen AS for Fagbokforlaget\nmed stønad frå Utdanningsdirektoratet.   Foto: Matt Kemp"
     },
     {
       "id": "cpr-timing-fast",
