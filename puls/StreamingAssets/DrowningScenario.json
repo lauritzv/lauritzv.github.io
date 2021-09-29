@@ -485,7 +485,7 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Det er ingen tid å miste - jeg kaster med uti med en gang!",
+              "answerTextBM": "Det er ingen tid å miste – jeg kaster med uti med en gang!",
               "answerTextNN": null,
               "feedbackTextBM": "Du må også tenke på egen sikkerhet. Dere kan begge drukne hvis gutten får panikk og klamrer seg til deg.",
               "feedbackTextNN": "",
@@ -913,7 +913,7 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Jeg ber dem komme nærmere for hjelpe til med livredningen.",
+              "answerTextBM": "Jeg ber dem komme nærmere for å hjelpe til med livredningen.",
               "answerTextNN": null,
               "feedbackTextBM": "For mange folk kan forstyrre livredningen, de bør holde seg på avstand.",
               "feedbackTextNN": "",
@@ -1480,7 +1480,7 @@
       ],
       "attachedAssets": [],
       "actionsOnClosedPanel": [],
-      "headerTextBM": "Gutten reagerer ikke, og du kan gå utifra at han er bevisstløs. Hva gjør du?",
+      "headerTextBM": "Gutten reagerer ikke, og du kan gå ut fra at han er bevisstløs. Hva gjør du?",
       "headerTextNN": null,
       "id": "St4-P3",
       "panelElementType": 0
@@ -1787,7 +1787,7 @@
         {
           "answers": [
             {
-              "answerTextBM": "Jeg setter han på fanget for å varme og beroliger han.",
+              "answerTextBM": "Jeg setter han på fanget for å varme og berolige han.",
               "answerTextNN": null,
               "feedbackTextBM": "Det er en god tanke, men det er ikke korrekt handling.",
               "feedbackTextNN": "",
@@ -1868,7 +1868,7 @@
               "panelElementType": 4
             },
             {
-              "answerTextBM": "Se animasjon om å legge i stabilt sideleie.",
+              "answerTextBM": "Se animasjon om å legge i sideleie.",
               "answerTextNN": null,
               "feedbackTextBM": "",
               "feedbackTextNN": "",

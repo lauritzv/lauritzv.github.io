@@ -87,7 +87,7 @@
         {
           "answers": [
             {
-              "answerTextBM": "Jeg blir stående og observerer for å gi rett informasjon til ambulansen.",
+              "answerTextBM": "Jeg blir stående og observere for å gi rett informasjon til ambulansen.",
               "answerTextNN": null,
               "feedbackTextBM": "Dette er et skadested, og det viktigste er å redde liv.",
               "feedbackTextNN": "",
@@ -1105,7 +1105,7 @@
             {
               "answerTextBM": "Ja",
               "answerTextNN": null,
-              "feedbackTextBM": "Baggasjerommet er nå åpent.",
+              "feedbackTextBM": "Bagasjerommet er nå åpent. Du kan nå finne varseltrekanten der.",
               "feedbackTextNN": "",
               "isCorrectAnswer": true,
               "initiallyVisible": true,
@@ -1160,7 +1160,7 @@
       ],
       "attachedAssets": [],
       "actionsOnClosedPanel": [],
-      "headerTextBM": "Ønsker du å åpne baggasjerommet?",
+      "headerTextBM": "Ønsker du å åpne bagasjerommet?",
       "headerTextNN": null,
       "id": "S3-P4",
       "panelElementType": 0
@@ -2171,7 +2171,7 @@
       ],
       "attachedAssets": [],
       "actionsOnClosedPanel": [],
-      "headerTextBM": "Du kan ikke lenger se at den skadde puster! Hva gjør du nå?",
+      "headerTextBM": "Den skadde puster ikke! Hva gjør du nå?",
       "headerTextNN": null,
       "id": "St4-P1",
       "panelElementType": 0
