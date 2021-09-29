@@ -156,6 +156,11 @@
       "nynorsk": "Følsemd ved\npanorering"
     },
     {
+      "id": "settings-invert",
+      "bokmal": "Omvendt\npanorering",
+      "nynorsk": ""
+    },
+    {
       "id": "settings-quit-scenario",
       "bokmal": "Avslutt scenarioet",
       "nynorsk": ""
