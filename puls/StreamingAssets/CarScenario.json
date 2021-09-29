@@ -2810,7 +2810,8 @@
         },
         {
           "textParentId": "PhoneConversation1",
-          "newText": "Lytt til samtalen igjen",
+          "newTextBM": "Lytt til samtalen igjen",
+          "newTextNN": null,
           "actionType": 15
         },
         {
@@ -2887,7 +2888,8 @@
       "sActions": [
         {
           "textParentId": "PhoneConversation2",
-          "newText": "Lytt til samtalen igjen",
+          "newTextBM": "Lytt til samtalen igjen",
+          "newTextNN": null,
           "actionType": 15
         },
         {
@@ -2906,7 +2908,8 @@
       "sActions": [
         {
           "textParentId": "PhoneConversation3",
-          "newText": "Lytt til samtalen igjen",
+          "newTextBM": "Lytt til samtalen igjen",
+          "newTextNN": null,
           "actionType": 15
         },
         {
@@ -2956,7 +2959,8 @@
       "sActions": [
         {
           "textParentId": "PhoneConversation4",
-          "newText": "Lytt samtalen igjen",
+          "newTextBM": "Lytt samtalen igjen",
+          "newTextNN": null,
           "actionType": 15
         },
         {
