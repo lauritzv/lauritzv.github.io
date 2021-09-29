@@ -3,55 +3,68 @@
   "lines": [
     {
       "lineTime": 0.0,
-      "lineText": "113:\n«Bra. Da trenger jeg litt flere opplysninger». «Er det flere skadde eller involverte?»"
+      "lineTextBM": "113:\n«Bra. Da trenger jeg litt flere opplysninger». «Er det flere skadde eller involverte?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 5.0,
-      "lineText": "Innringer:\n«Nei, det er bare jenta som ligger på bakken som er skadet tror jeg. Det er en person til her som virker veldig engstelig»"
+      "lineTextBM": "Innringer:\n«Nei, det er bare jenta som ligger på bakken som er skadet tror jeg. Det er en person til her som virker veldig engstelig»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 11.0,
-      "lineText": "Innringer:\n«Hun går rundt her og jeg kan se at hun gråter og er fortvilet. Jeg tror nok det er fører av bilen»"
+      "lineTextBM": "Innringer:\n«Hun går rundt her og jeg kan se at hun gråter og er fortvilet. Jeg tror nok det er fører av bilen»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 17.0,
-      "lineText": "113:\n«Det er mottatt. Er pasienten våken?» "
+      "lineTextBM": "113:\n«Det er mottatt. Er pasienten våken?» ",
+      "lineTextNN": ""
     },
     {
       "lineTime": 19.0,
-      "lineText": "Innringer:\n«Nei, jeg tror ikke det. Hun ligger helt stille på bakken med øynene lukket»"
+      "lineTextBM": "Innringer:\n«Nei, jeg tror ikke det. Hun ligger helt stille på bakken med øynene lukket»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 24.0,
-      "lineText": "113:\n«Får du kontakt med pasienten dersom du rister forsiktig i henne?»"
+      "lineTextBM": "113:\n«Får du kontakt med pasienten dersom du rister forsiktig i henne?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 27.0,
-      "lineText": "Innringer:\n«Jeg skal prøve»"
+      "lineTextBM": "Innringer:\n«Jeg skal prøve»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 32.0,
-      "lineText": "Innringer:\n«Nei, jeg får ingen kontakt med henne»"
+      "lineTextBM": "Innringer:\n«Nei, jeg får ingen kontakt med henne»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 34.0,
-      "lineText": "113:\n«Pusten hun normalt?»"
+      "lineTextBM": "113:\n«Pusten hun normalt?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 37.0,
-      "lineText": "Innringer:\n«Ja. Jeg hører at hun puster»"
+      "lineTextBM": "Innringer:\n«Ja. Jeg hører at hun puster»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 38.0,
-      "lineText": "113:\n«Det er bra. Da vil jeg du skal legge henne forsiktig over på ryggen. Bøy hodet GODT, men forsiktig bakover. Legg en hånd på pannen og løft opp haken. Hold hodet slik»"
+      "lineTextBM": "113:\n«Det er bra. Da vil jeg du skal legge henne forsiktig over på ryggen. Bøy hodet GODT, men forsiktig bakover. Legg en hånd på pannen og løft opp haken. Hold hodet slik»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 51.0,
-      "lineText": "113:\n«Da vil jeg at du skal sjekke en gang til om hun puster normalt. Kan du se om brystet hever seg normalt?»"
+      "lineTextBM": "113:\n«Da vil jeg at du skal sjekke en gang til om hun puster normalt. Kan du se om brystet hever seg normalt?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 58.0,
-      "lineText": "Innringer:\n«Vent litt, så skal jeg sjekke»"
+      "lineTextBM": "Innringer:\n«Vent litt, så skal jeg sjekke»",
+      "lineTextNN": ""
     }
   ],
   "name": "Sc1Call2",

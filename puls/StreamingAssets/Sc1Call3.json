@@ -3,23 +3,28 @@
   "lines": [
     {
       "lineTime": 0.0,
-      "lineText": "Innringer: \n«Ja, hun puster fortsatt normalt»\r"
+      "lineTextBM": "Innringer: \n«Ja, hun puster fortsatt normalt»\r",
+      "lineTextNN": ""
     },
     {
       "lineTime": 3.0,
-      "lineText": "113:\n«Så bra. Ambulansen er bare noen minutter unna dere nå»\r"
+      "lineTextBM": "113:\n«Så bra. Ambulansen er bare noen minutter unna dere nå»\r",
+      "lineTextNN": ""
     },
     {
       "lineTime": 6.5,
-      "lineText": "113: \n«Da vil jeg at du skal be om hjelp fra andre tilstedeværende om å hjelpe deg litt akkurat nå. \nDere skal forsiktig legge henne over på siden. Her er det viktig at en av dere holder nakken hennes så stabilt som dere klarer»\r"
+      "lineTextBM": "113: \n«Da vil jeg at du skal be om hjelp fra andre tilstedeværende om å hjelpe deg litt akkurat nå. \nDere skal forsiktig legge henne over på siden. Her er det viktig at en av dere holder nakken hennes så stabilt som dere klarer»\r",
+      "lineTextNN": ""
     },
     {
       "lineTime": 19.5,
-      "lineText": "113: \n«Når du har lagt henne over på siden vil jeg at du nok en gang skal bøye hodet bakover og se at hun puster»\r"
+      "lineTextBM": "113: \n«Når du har lagt henne over på siden vil jeg at du nok en gang skal bøye hodet bakover og se at hun puster»\r",
+      "lineTextNN": ""
     },
     {
       "lineTime": 26.0,
-      "lineText": "Innringer: \n«Jeg skal be om hjelp til å legge henne over på siden»\r"
+      "lineTextBM": "Innringer: \n«Jeg skal be om hjelp til å legge henne over på siden»\r",
+      "lineTextNN": ""
     }
   ],
   "name": "Sc1Call3",

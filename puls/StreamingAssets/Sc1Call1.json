@@ -3,55 +3,68 @@
   "lines": [
     {
       "lineTime": 0.0,
-      "lineText": "(Utgående ringetone)"
+      "lineTextBM": "(Utgående ringetone)",
+      "lineTextNN": ""
     },
     {
       "lineTime": 2.5,
-      "lineText": "113:\n«Medisinsk nødtelefon 113»"
+      "lineTextBM": "113:\n«Medisinsk nødtelefon 113»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 5.0,
-      "lineText": "Innringer:\n«Hei. Eh. Mitt navn er Kristian. Det er en jente som er påkjørt. Hun ligger på bakken. Hun trenger hjelp. Dere må sende en ambulanse»"
+      "lineTextBM": "Innringer:\n«Hei. Eh. Mitt navn er Kristian. Det er en jente som er påkjørt. Hun ligger på bakken. Hun trenger hjelp. Dere må sende en ambulanse»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 12.0,
-      "lineText": "113:\n«Da er det bra du ringer. Hvor befinner du deg?»"
+      "lineTextBM": "113:\n«Da er det bra du ringer. Hvor befinner du deg?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 14.0,
-      "lineText": "Innringer:\n«Jeg befinner meg i Nedre Stabburs vei»"
+      "lineTextBM": "Innringer:\n«Jeg befinner meg i Nedre Stabburs vei»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 16.5,
-      "lineText": "113:\n«Hvilken kommune?»"
+      "lineTextBM": "113:\n«Hvilken kommune?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 18.0,
-      "lineText": "Innringer:\n«Det er i Oslo»"
+      "lineTextBM": "Innringer:\n«Det er i Oslo»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 19.0,
-      "lineText": "113:\n«Ambulanse er på vei til dere.»\n\n«Du sier det er en jente som er påkjørt. Ligger pasienten i veibanen?»"
+      "lineTextBM": "113:\n«Ambulanse er på vei til dere.»\n\n«Du sier det er en jente som er påkjørt. Ligger pasienten i veibanen?»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 24.0,
-      "lineText": "Innringer:\n«Ja, hun ligger midt i veien»"
+      "lineTextBM": "Innringer:\n«Ja, hun ligger midt i veien»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 26.0,
-      "lineText": "113:\n«Da er det svært viktig at dere passer på å sikre skadested, slik at pasienten eller dere ikke blir utsatt for fare. Dersom det er flere til stede vil jeg at du skal få hjelp til å sikre skadestedet». "
+      "lineTextBM": "113:\n«Da er det svært viktig at dere passer på å sikre skadested, slik at pasienten eller dere ikke blir utsatt for fare. Dersom det er flere til stede vil jeg at du skal få hjelp til å sikre skadestedet». ",
+      "lineTextNN": ""
     },
     {
       "lineTime": 37.0,
-      "lineText": "Innringer:\n«Ja, det en til her som kan hjelpe meg»"
+      "lineTextBM": "Innringer:\n«Ja, det en til her som kan hjelpe meg»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 40.0,
-      "lineText": "113:\n«Da ønsker jeg at de skal slå av tenningen på bilen som er involvert. Ta på en gul vest dersom det er mulig. Sett ut en varseltrekant i god avstand og sett på nød blinken for at dere skal bli enda mer synlige.»"
+      "lineTextBM": "113:\n«Da ønsker jeg at de skal slå av tenningen på bilen som er involvert. Ta på en gul vest dersom det er mulig. Sett ut en varseltrekant i god avstand og sett på nød blinken for at dere skal bli enda mer synlige.»",
+      "lineTextNN": ""
     },
     {
       "lineTime": 52.0,
-      "lineText": "Innringer:\n«Det skal vi gjøre»"
+      "lineTextBM": "Innringer:\n«Det skal vi gjøre»",
+      "lineTextNN": ""
     }
   ],
   "name": "Sc1Call1",
