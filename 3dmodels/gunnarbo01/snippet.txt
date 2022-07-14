@@ -1,0 +1,11 @@
+<model-viewer bounds="tight" src="Gunnar01_01.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.79" auto-rotate shadow-softness="0.63" exposure="1" camera-orbit="-163.9deg 59.11deg auto" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 89deg auto">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
